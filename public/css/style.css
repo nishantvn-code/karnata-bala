@@ -1,0 +1,124 @@
+/*******************   BOOTSTRAP CSS OVERRIDE   *****************/
+.btn.btn-ok{ background-color: #880404; color: #fff; border-radius: 0; padding: 1px 8px; }
+.btn.btn-other{ background-color: #fff; border-radius: 0; border: 2px solid #ef5b7e; }
+
+
+
+
+/*******************   GENERAL CSS RULE   *****************/
+span.karnata{ color: #e48f0a; }
+span.bala{ color: #880404; }
+.pl-50{ padding-left: 50%; }
+.border-box{ min-height: 10px; background-color: #ddd; }
+
+.triangle-up{ position: absolute; bottom: 0; left: 45%; width: 0; height: 0; border-style: solid; border-width: 0 15px 20px 15px; 
+    border-color: transparent transparent #ffffff transparent; }
+.triangle-down{ position: absolute; top: 0; left: 45%; width: 0; height: 0; border-style: solid; border-width: 15px 20px 0 15px; 
+    border-color:  #ffffff transparent transparent transparent;; }
+.head-line-01{ font-size: 28px; color: #ef5b7e; }
+.sub-head-para-01{ color: #4d4d4d; font-size: 18px; line-height: 1.2; }
+
+.small-head-01{ font-size: 20px; }
+.small-sub-head-01{ font-size: 12px; text-transform: uppercase; color: #ef5b7e; }
+
+
+
+/*******************   ICON CSS RULE   *****************/
+
+
+
+
+
+/*******************   ACTUAL CSS RULE START  *****************/
+#karnataBalaHeader .navbar-brand span{ font-weight: 500; font-size: 26px; }
+#karnataBalaHeader .navbar-brand span.karnata{ color: #e48f0a; }
+#karnataBalaHeader .navbar-brand span.bala{ color: #880404; }
+
+#navbarTogglerTop1 .nav-item .nav-link{ padding: 21px 16px; }
+#navbarTogglerTop1 .nav-item.active .nav-link{ border-bottom: 2px solid #880404; }
+#navbarTogglerTop1 .login-wrap >a{ color: rgba(0,0,0,.5); }
+#navbarTogglerTop1 .login-wrap >a:hover{ color: #212529; text-decoration: none; }
+
+#topperCarousel{  }
+#topperCarousel .carousel-item{ height: auto; }
+#topperCarousel .carousel-item img{ width: 100%; }
+
+.k-jumbotron{ position: relative; overflow: hidden; padding: 20px; }
+.rajyostava{ position: absolute; width: 40%; top: -56px; left: 0; }
+
+.activist-box-wrap .img-wrap{ position: relative; }
+.activist-box-wrap .img-wrap > img{ width: 100%; filter: grayscale(1); }
+.activist-box-wrap:hover .img-wrap > img{ width: 100%; filter: none; }
+
+.activist-box-wrap .box-info{  }
+.box-info{ padding: 20px 20px 20px 0; }
+.box-info .box-para{ line-height: 1.2; font-size: 14px; }
+.box-info .time-punch{ font-size: 11px; }
+
+.twitter-section{  }
+.twitter-section .card{ border: none; }
+.twitter-img-wrap{ width: 130px; height: 130px; border-radius: 50%; overflow: hidden; }
+.twitter-img-wrap img{ height: 100%; filter: grayscale(1); }
+.twitter-section .card-body{ padding-top: 0; }
+.twitter-section .card-text{ font-size: 15px; line-height: 1.2; }
+.twitter-section .card-title{ line-height: 0.9; margin-bottom: 4px; }
+
+.social-tab{ border-bottom: 2px solid #ddd; }
+.social-tab li a.fa{ background-color: transparent; font-size: 26px; border: 1px solid;
+    margin-right: 3px; color: #a2a2a2; }
+.social-tab .nav-item.show .nav-link, .social-tab .nav-link.active{ 
+    background-color: #a0a0a0; color: #fff; border: 1px solid #a0a0a0; }
+.social-tab-content{ border: 1px solid #ddd; height: 958px; overflow-y: auto; }
+.tweet-bg{ width: 100%; }
+
+.kannada-poet-containter{ background-color: #ddd; }
+.kannada-poet-containter ul{ list-style: none outside none; padding-left: 0; margin: 0; }
+.content-slider li{ background-color: #fff; text-align: center; color: #333; }
+.content-slider h3 { margin: 0; padding: 70px 0; }
+.lSSlideOuter .lSPager.lSpg{ display: none; }
+.poet-img-warp{ height: 205px; overflow: hidden; }
+.poet-img-warp img{ filter: grayscale(1); }
+.poet-card:hover .poet-img-warp img{ filter: none; }
+.poet-card .award{ margin-bottom: 6px; }
+.poet-card .card-body{  }
+.poet-card .card-text{ line-height: 1.2; text-align: left; }
+.poet-card .card-btn{ text-align: right; margin-bottom: 0; }
+
+.footer{  }
+.foot-kb-logo span{ font-size: 23px; color: #fff; text-shadow: 1px 1px #444; }
+.page-footer{ background-color: #e48f0a; }
+.footer-copyright{ background-color: #880404; }
+.footer-copyright{ color: #fff; }
+.footer-copyright a{ color: #fff; }
+.footer-copyright a:hover{ text-decoration: none; }
+.social-media-icons li{ display: inline-block; }
+.social-media-icons li a.fa { padding: 10px; font-size: 15px; width: 37px; border-radius: 4px; 
+    text-decoration: none; margin: 5px 2px; }
+.social-media-icons li a.fa-facebook { background: #3B5998; color: white; }
+.social-media-icons li a.fa-facebook { background: #3B5998; color: white; }
+.social-media-icons li a.fa-twitter { background: #55ACEE; color: white; }
+.social-media-icons li a.fa-instagram { background: #125688; color: white; }
+.social-media-icons li a.fa-youtube { background: #bb0000; color: white; }
+.social-media-icons li a:hover{ opacity: 0.7; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
