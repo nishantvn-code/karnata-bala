@@ -1,5 +1,6 @@
 const intialState = {
-  userDetails: {}
+  userDetails: {},
+  newsPosts: []
   };
 
   export default intialState;

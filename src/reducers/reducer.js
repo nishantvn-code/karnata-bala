@@ -2,7 +2,7 @@ import intialState from './intialState';
 import * as types from '../action-types/index';
 
 
-export default function (state = intialState, action) {
+ function mainState(state = intialState, action) {
 
     // eslint-disable-next-line default-case
     switch(action.type){
@@ -10,9 +10,10 @@ export default function (state = intialState, action) {
             return {...state, userDetails: action.payload};
         }
 
-        case types.GET_INTENT_SUCCESS: {
-            return {...state, intents: action.payload}
+        case types.GET_NEWS_SUCCESS: {
+            return {...state, newsPosts: action.payload}
         }
     default: return {...state};
     }
 }
+export default mainState;

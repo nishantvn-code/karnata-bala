@@ -30,6 +30,9 @@ span.bala{ color: #880404; }
 
 
 /*******************   ACTUAL CSS RULE START  *****************/
+body{
+  font-family: 'Baloo Tamma 2', cursive;;
+}
 #karnataBalaHeader .navbar-brand span{ font-weight: 500; font-size: 26px; }
 #karnataBalaHeader .navbar-brand span.karnata{ color: #e48f0a; }
 #karnataBalaHeader .navbar-brand span.bala{ color: #880404; }

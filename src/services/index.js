@@ -37,10 +37,4 @@ export const saveUserDetail = async (data) => {
 
 export const postService =  (url, payload) =>  axios.post(url,payload);
 
-export const getService = (url, auth) => axios.get(url, {
-    headers: {
-     'Content-Type': 'application/json',
-      'Authorization': auth
-    },
-    params: {filter: {"limit":20,"skip":0,"where":{"agentId":"5bcee5bafe751a289f6154cf"}}}
-  });
+export const getService = (url) => axios.get(url);

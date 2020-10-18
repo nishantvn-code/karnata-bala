@@ -8,7 +8,7 @@ const InSocialMedia  = props => {
     <div class="col-sm-12">
         <div class="col-sm-12">
             <div class="head-wrap mb-4">
-                <h1 class="head-line-01 text-center"> Social media KannadaPara </h1>
+                <h1 class="head-line-01 text-center"> ಸೋಷಿಯಲ್ ಮೀಡಿಯಾ ಕನ್ನಡ ಪರ </h1>
                 <p class="sub-head-para-01 text-center">Karnataka on the back of social media campaigns by Pro-Kannada activists who range across the idological spectrum from the Left to the cultural right.</p>
             </div>
         </div>

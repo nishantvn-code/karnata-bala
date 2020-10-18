@@ -18,31 +18,31 @@ class Header extends React.Component {
             </button>
             <a class="navbar-brand py-0" href="#">
                 <img src="image/KB-Logo.png" width="66" height="66" alt="" /> 
-                <span class="karnata">Karnata</span><span class="bala">Bala</span>
+                <span class="karnata">ಕರ್ಣಾಟ</span><span class="bala">ಬಲ</span>
             </a>
             <div class="collapse navbar-collapse" id="navbarTogglerTop1">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     
                     <li className={`nav-item ${this.getActiveNav('/')}`}>
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/">ಮುಖಪುಟ <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li className={`nav-item ${this.getActiveNav('/news')}`}>
-                        <a class="nav-link" href="/news">News</a>
+                        <a class="nav-link" href="/news">ಸುದ್ದಿ</a>
                     </li>
 
                     <li className={`nav-item ${this.getActiveNav('/gallery')}`}>
-                        <a class="nav-link" href="/gallery">Gallery</a>
+                        <a class="nav-link" href="/gallery">ಗ್ಯಾಲರಿ</a>
                     </li>
 
                     <li className={`nav-item ${this.getActiveNav('/blog')}`}>
-                        <a class="nav-link" href="/blog">Blog</a>
+                        <a class="nav-link" href="/blog">ಬ್ಲಾಗ್</a>
                     </li>
                                       
                 </ul>
-                <form class="form-inline my-2 my-lg-0 login-wrap">
+                {/* <form class="form-inline my-2 my-lg-0 login-wrap">
                     <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
-                </form>
+                </form> */}
             </div>
         </nav>
   );

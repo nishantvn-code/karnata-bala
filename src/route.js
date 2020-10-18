@@ -12,9 +12,9 @@ const Routes = () => (
     <Header />
     <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/news' component={News} />
-        <Route path='/gallery' component={Gallery} />
-        <Route path='/blog' component={Blog} />
+        <Route path='/news' exact component={News} />
+        <Route path='/gallery' exact component={Gallery} />
+        <Route path='/blog' exact component={Blog} />
     </Switch>
     <Footer />
 </Router>
