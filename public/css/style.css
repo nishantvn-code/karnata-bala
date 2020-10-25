@@ -1,6 +1,7 @@
 /*******************   BOOTSTRAP CSS OVERRIDE   *****************/
 .btn.btn-ok{ background-color: #880404; color: #fff; border-radius: 0; padding: 1px 8px; }
 .btn.btn-other{ background-color: #fff; border-radius: 0; border: 2px solid #ef5b7e; }
+.btn.btn-other:hover{ background-color: #212529; border: 2px solid #212529; color: #fff; }
 
 
 
@@ -9,6 +10,7 @@
 span.karnata{ color: #e48f0a; }
 span.bala{ color: #880404; }
 .pl-50{ padding-left: 50%; }
+.d-inline-imp{ display: inline-block !important; }
 .border-box{ min-height: 10px; background-color: #ddd; }
 
 .triangle-up{ position: absolute; bottom: 0; left: 45%; width: 0; height: 0; border-style: solid; border-width: 0 15px 20px 15px; 
@@ -18,6 +20,10 @@ span.bala{ color: #880404; }
 .head-line-01{ font-size: 28px; color: #ef5b7e; }
 .sub-head-para-01{ color: #4d4d4d; font-size: 18px; line-height: 1.2; }
 
+.blog-head-line-01{ color: #4d4d4d; font-size: 22px; }
+.blog-sub-head-para-01{ color: #4d4d4d; font-size: 15px; line-height: 1.3; }
+
+.black-color{ color: #212529; }
 .small-head-01{ font-size: 20px; }
 .small-sub-head-01{ font-size: 12px; text-transform: uppercase; color: #ef5b7e; }
 
@@ -30,9 +36,6 @@ span.bala{ color: #880404; }
 
 
 /*******************   ACTUAL CSS RULE START  *****************/
-body{
-  font-family: 'Baloo Tamma 2', cursive;;
-}
 #karnataBalaHeader .navbar-brand span{ font-weight: 500; font-size: 26px; }
 #karnataBalaHeader .navbar-brand span.karnata{ color: #e48f0a; }
 #karnataBalaHeader .navbar-brand span.bala{ color: #880404; }
@@ -108,17 +111,51 @@ body{
 
 
 
+/*******************   SUDDI CSS RULE START  *****************/
+.widget-list-container{  }
+.widget-title{ font-size: 22px; color: #ef5b7e; }
+.blog-post-container{ min-height: 508px; padding-top: 10px; }
+.post-meta{ color: #212529; font-size: 14px; line-height: 24px; }
+.post-blog-img-wrap{ height: 211px; overflow: hidden; }
+.posts-widget .img-widget-wrap{ float: left; width: 125px; overflow: hidden; height: 155px; background-color: #f1f1f1; margin-right: 20px; }
+.widget-info-wrap{  }
+.widget-category{ color: #ef5b7e; font-size: 14px; text-transform: uppercase; }
+.widget-head{ font-size: 19px; color: #4d4d4d; line-height: 1.1; }
+.widget-head > a{ color: #4d4d4d; }
+.widget-head > a:hover{ color: #4d4d4d; }
+.widget-info-wrap .date{ font-size: 12px; }
 
+.jumbotron-blog-img{ width: 100%; height: 300px; overflow: hidden; }
+.jumbotron-blog-img img{ width: 100%; }
+.story-img-library{ margin-bottom: 20px; }
 
+blockquote{ position: relative; margin-top: 57px; padding: 50px 50px 54px; border: 1px dotted #999;
+    font-size: 16px; line-height: 26px;  z-index: 0; }
+blockquote:before { content: "\f10d"; display: block; position: absolute;
+    top: -40px; left: 0; right: 0; width: 60px; margin: 10px auto; color: #fff; background-color: #ef5b7e;
+    border: 1px dotted #fff; border-radius: 50%; font-family: "FontAwesome"; line-height: 58px; text-align: center;
+    box-sizing: inherit; z-index: -1; }
+blockquote p:before { content: "\f10d"; display: inline-block; position: relative; top: -2px;
+    margin-right: 5px; color: #999; font-family: "FontAwesome"; font-size: 14px; }
+blockquote p:after { content: "\f10e"; margin-left: 5px; color: #999; font-family: "FontAwesome"; font-size: 14px; }
 
+.social-nav > li{ display: inline-block; vertical-align: middle; }
+.social-nav > li strong{ display: inline-block; vertical-align: middle; padding-top: 17px; }
+.social-nav > li > a { width: 40px; display: inline-block; vertical-align: middle; text-align: center; margin: 10px 5px 0; color: #4d4d4d;
+    padding: 0; border: 1px solid #4d4d4d; border-radius: 50%; font-size: 14px; line-height: 38px; }
+.social-nav > li > a:hover{ background-color: #ef5b7e; border-color: #ef5b7e; color: #fff;  }
 
+.pager-wrapper{ text-align: center; }
+.pager-nav{ width: 46%; margin: 4px auto 0 auto; font-size: 14px; line-height: 24px; font-weight: 700; text-transform: uppercase; }
+.pager-nav:before{ display: table; content: " "; }
+.pager-nav > li + li:before { content: "|"; margin: 0 20px 0 18px; color: #696969; }
+.pager-nav > li > a{ color: #adadad; }
+.pager-nav > li > a:hover{ color: #4d4d4d; }
+.pager-nav > li > a > .fa-long-arrow-left { margin-right: 8px; }
+.pager-nav > li > a > .fa-long-arrow-right { margin-left: 8px; }
 
-
-
-
-
-
-
+.title-color {color: #e48f0a;}
+.aboutus{margin: 3rem;}
 
 
 

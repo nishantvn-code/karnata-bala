@@ -5,8 +5,9 @@ import HomeMainInfo from '../sub-components/home-main-info';
 import HomeCarousel from '../sub-components/home-caroursel';
 import EventsKannadaPara from '../sub-components/events-kannada-para';
 import HrSpace from '../sub-components/hr-space';
-import InSocialMedia from '../sub-components/in-social-media';
-import AboutPoets from '../sub-components/about-poets';
+// import InSocialMedia from '../sub-components/in-social-media';
+// import AboutPoets from '../sub-components/about-poets';
+import YoutubeVideo from '../sub-components/youtube-video';
 
 class Home extends React.Component {
 
@@ -20,7 +21,8 @@ class Home extends React.Component {
       <HomeCarousel />
       <EventsKannadaPara />
       <HrSpace />
-      <InSocialMedia />
+      <YoutubeVideo />
+      {/* <InSocialMedia /> */}
       {/* <AboutPoets /> */}
     </div>
   );

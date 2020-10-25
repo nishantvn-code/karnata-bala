@@ -9,7 +9,7 @@ const HomeMainInfo  = props => {
         <div class="col-sm-7">
             <h3>ಕನ್ನಡ ರಾಜ್ಯೋತ್ಸವ - 2020</h3>
             <h1 class="pt-2">Welcome to KarnataBala</h1>            
-            <p class="mb-0">The mission of KarnataBala is to work for the cause of language rights of Kannada consumers. The plight of a Kannada consumer in Karnataka today shows how the government and private sectors have conveniently ignored the language dimension in consumer services. </p>
+            <p class="mb-0">ಕನ್ನಡ ನುಡಿಯ, ಕನ್ನಡ ನಾಡಿನ ಹಾಗು ಕನ್ನಡಿಗರ ಹಿರಿಮೆಯನ್ನು ಜಗತ್ತಿಗೆ ಸಾರುವ ಒಂದು ಪ್ರಯತ್ನ. </p>
         </div>
     </div>
     

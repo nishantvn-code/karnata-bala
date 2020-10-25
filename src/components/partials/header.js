@@ -16,7 +16,7 @@ class Header extends React.Component {
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerTop1" aria-controls="navbarTogglerTop1" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand py-0" href="#">
+            <a class="navbar-brand py-0" href="/">
                 <img src="image/KB-Logo.png" width="66" height="66" alt="" /> 
                 <span class="karnata">ಕರ್ಣಾಟ</span><span class="bala">ಬಲ</span>
             </a>
@@ -38,7 +38,10 @@ class Header extends React.Component {
                     <li className={`nav-item ${this.getActiveNav('/blog')}`}>
                         <a class="nav-link" href="/blog">ಬ್ಲಾಗ್</a>
                     </li>
-                                      
+
+                    <li className={`nav-item ${this.getActiveNav('/aboutus')}`}>
+                        <a class="nav-link" href="/aboutus">ಕರ್ಣಾಟಬಲ</a>
+                    </li>               
                 </ul>
                 {/* <form class="form-inline my-2 my-lg-0 login-wrap">
                     <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>

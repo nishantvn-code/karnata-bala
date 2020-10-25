@@ -21,50 +21,50 @@ const HomeCarousel  = props => {
                             <div class="carousel-item active">
                                 <img src="image/carousel-hampe-01.jpg" alt="Hampe" class="img-fluid" />
                                 <div class="carousel-caption">
-                                    <h3>Hampe</h3>
-                                    <p>World's largest open-air museum</p>
+                                    <h3>ಹOಪೆ</h3>
+                                    <p>ವಿಶ್ವದ ಅತಿದೊಡ್ಡ ತೆರೆದ ಗಾಳಿ ವಸ್ತುಸಂಗ್ರಹಾಲಯ</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="image/carousel-ajanta-ellora.jpg" alt="Ajanta ellora" class="img-fluid" />
                                 <div class="carousel-caption">
-                                    <h3>Ajanata ellora</h3>
-                                    <p>Maharastra, India</p>
+                                    <h3>ಅಜಂತ ಎಲ್ಲೋರಾ</h3>
+                                    <p>ಮಹಾರಾಷ್ಟ್ರ, ಭಾರತ</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="image/carousel-joga-jalapatha.jpg" alt="Joga Jalapatha" class="img-fluid" />
                                 <div class="carousel-caption">
-                                    <h3>Joga Jalapatha</h3>
-                                    <p>Witness the spectacular cascade!</p>
+                                    <h3>ಜೋಗ ಜಲಪಾಥ</h3>
+                                    <p>ಅದ್ಭುತ ಕ್ಯಾಸ್ಕೇಡ್ಗೆ ಸಾಕ್ಷಿಯಾಗಿದೆ!</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="image/carousel-elephant.jpg" alt="Karnataka wild" class="img-fluid" />
                                 <div class="carousel-caption">
-                                    <h3>Karnataka wild</h3>
-                                    <p>Karnataka's epic beauty compiled ...</p>
+                                    <h3>ಕರ್ನಾಟಕ ಕಾಡು</h3>
+                                    <p>ಕರ್ನಾಟಕದ ಸೌಂದರ್ಯ ಸಂಕಲನ ...</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="image/carousel-yaana.jpg" alt="Yaana" class="img-fluid" />
                                 <div class="carousel-caption">
-                                    <h3>Yaana</h3>
-                                    <p>Exquisite Karnataka: discover new world</p>
+                                    <h3>ಯಾನಾ</h3>
+                                    <p>ಸೊಗಸಾದ ಕರ್ನಾಟಕ: ಹೊಸ ಪ್ರಪಂಚವನ್ನು ಅನ್ವೇಷಿಸಿ</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="image/carousel-shravanabelagola.jpg" alt="Shravanabelagola" class="img-fluid" />
                                 <div class="carousel-caption">
-                                    <h3>Shravanabelagola</h3>
-                                    <p>The holy town of Shravanabelagola beckons</p>
+                                    <h3>ಶ್ರವಣಬೆಳಗೊಳ</h3>
+                                    <p>ಪವಿತ್ರ ಪಟ್ಟಣವಾದ ಶ್ರವಣಬೆಳಗೊಳ </p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="image/carousel-kambala.jpg" alt="Kambala" class="img-fluid" />
                                 <div class="carousel-caption">
-                                    <h3>Kamabala</h3>
-                                    <p>Karnataka coastal festival excitement</p>
+                                    <h3>ಕಂಬಳ</h3>
+                                    <p>ಕರ್ನಾಟಕ ಕರಾವಳಿ ಹಬ್ಬದ ಸಂಭ್ರಮ</p>
                                 </div>
                             </div>
                         </div>

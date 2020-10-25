@@ -2,10 +2,11 @@ import React, { useEffect } from 'react';
 import {connect} from 'react-redux';
 import {getNewsPosts} from '../../actions/index';
 import { Link } from 'react-router-dom';
+
 const EventsKannadaPara  = props => {
     useEffect(() => {
         props.getNewsPosts();
-    }, [])
+    }, []);
   return (
     <div class="row">
     <div class="col-sm-12">
@@ -24,9 +25,9 @@ const EventsKannadaPara  = props => {
             </div>
             <div class="box-info px-4">
                 <h3 class="small-sub-head-01 mt-1">{post.place}</h3>
-                <h3 class="small-head-01 mt-3">{post.title}</h3>
+                <h3 class="small-head-01 mt-3 title-color" >{post.title}</h3>
 
-                <p class="box-para mt-3">{post.description}</p>
+                <p class="box-para mt-3">{post.info}</p>
                 <p class="time-punch mb-0 text-muted">{post.date}</p>
                 </div>
             </div>
@@ -36,9 +37,9 @@ const EventsKannadaPara  = props => {
        <div class="activist-box-wrap mt-3">
         <div class="box-info px-4">
                 <h3 class="small-sub-head-01 mt-1">{post.place}</h3>
-                <h3 class="small-head-01 mt-3">{post.title}</h3>
+                <h3 class="small-head-01 mt-3 title-color">{post.title}</h3>
 
-                <p class="box-para mt-3">{post.description}</p>
+                <p class="box-para mt-3">{post.info}</p>
                 <p class="time-punch mb-0 text-muted">{post.date}</p>
            </div>
            <div class="img-wrap">
