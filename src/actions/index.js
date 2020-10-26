@@ -7,3 +7,6 @@ export const logIn = () => ({
 export const getNewsPosts = () => ({
     type: types.GET_NEWS
 });
+export const getNewsPostsById = payload => ({
+    type: types.GET_NEWS_BY_ID, payload
+});

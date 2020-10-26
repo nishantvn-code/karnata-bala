@@ -156,7 +156,13 @@ blockquote p:after { content: "\f10e"; margin-left: 5px; color: #999; font-famil
 
 .title-color {color: #e48f0a;}
 .aboutus{margin: 3rem;}
-
+a{
+    color: #4d4d4d;
+}
+a:hover{
+    text-decoration: none;
+    color:  #4d4d4d;
+}
 
 
 

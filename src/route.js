@@ -12,12 +12,13 @@ const Routes = () => (
 <Router>
     <Header />
     <Switch>
+        <Route path='/newsdetails/:id' exact component={NewsDetails} />
         <Route path='/' exact component={Home} />
         <Route path='/news' exact component={News} />
         <Route path='/gallery' exact component={Gallery} />
         <Route path='/blog' exact component={Blog} />
-        <Route path='/newsdetails/:id' exact component={NewsDetails} />
         <Route path="/aboutus" exact component={AboutUs} />
+        
     </Switch>
     <Footer />
 </Router>

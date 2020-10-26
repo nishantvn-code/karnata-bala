@@ -17,7 +17,7 @@ class Header extends React.Component {
             <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand py-0" href="/">
-                <img src="image/KB-Logo.png" width="66" height="66" alt="" /> 
+                <img src="/image/KB-Logo.png" width="66" height="66" alt="" /> 
                 <span class="karnata">ಕರ್ಣಾಟ</span><span class="bala">ಬಲ</span>
             </a>
             <div class="collapse navbar-collapse" id="navbarTogglerTop1">
