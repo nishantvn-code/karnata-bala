@@ -41,7 +41,7 @@ import {getNewsPosts, getNewsPostsById} from '../../actions/index';
         </div>
         <div class="col-sm-6">
             <div class="story-container">
-                <h1 class="head-line-01 black-color mb-3"> {post.title}</h1>
+                <h1 class="head-line-01 title-color mb-3"> {post.title}</h1>
                 <p class="story-paragraph">
                 {post.description}
                 </p>
