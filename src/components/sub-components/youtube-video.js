@@ -7,11 +7,9 @@ const YoutubeVideo = (props) => {
       <div class="row">
         <div class="col-sm-12">
           <div class="head-wrap">
-            <h1 class="head-line-01">Karnataka Wild</h1>
-            <p class="sub-head-para-01">
-              Karnataka is India's 6th largest state of which has a recorded
-              forest area of 38720 km2 which constitutes 20.19% of the total
-              geographical area of the state.
+            <h1 class="head-line-01 text-center">ಕರ್ಣಾಟಬಲ</h1>
+            <p class="sub-head-para-01 text-center">
+             ಕರ್ಣಾಟಬಲ ಇನ್ ಯೂಟ್ಯೂಬ್.
             </p>
           </div>
         </div>
@@ -19,7 +17,8 @@ const YoutubeVideo = (props) => {
           <div class="embed-responsive embed-responsive-16by9 mb-4">
             <iframe
               class="embed-responsive-item"
-              src="https://www.youtube.com/embed/QO79orOvYJA?autoplay=1&loop=1"
+              src="https://www.youtube.com/embed/HlfXv2aDDYQ?autoplay=1&loop=1"
+              // src="http://www.youtube.com/embed/?listType=user_uploads&list=ಕರ್ಣಾಟಬಲKarnatabala"
               allow="off"
               allowfullscreen
             ></iframe>

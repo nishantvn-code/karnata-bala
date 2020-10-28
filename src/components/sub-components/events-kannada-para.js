@@ -25,7 +25,10 @@ class EventsKannadaPara extends React.Component {
     <div class="col-sm-12">
         <div class="head-wrap mt-4">
             <h1 class="head-line-01 text-center"> ಇವೆಂಟ್ಸ್ ಕನ್ನಡ ಪರ </h1>
-            <p class="sub-head-para-01 text-center">Karnataka on the back of social media campaigns by Pro-Kannada activists who range across the ideological spectrum from the Left to the cultural Right.</p>
+            <p class="sub-head-para-01 text-center">
+                {/* Karnataka on the back of social media campaigns by Pro-Kannada activists who range across the ideological spectrum from the Left to the cultural Right. */}
+                ಕನ್ನಡ ಪರ ಕಾರ್ಯಕರ್ತರ ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ ಅಭಿಯಾನ
+                </p>
         </div>
     </div>
   {homePagePosts && homePagePosts.map((post, index) => {
