@@ -55,21 +55,35 @@ class News extends React.Component {
                         <div class="posts-widget pb-3">
                             <ul class="nav">
                             {newsPosts && newsPosts.map(post => {
-                                return <li class="clearfix mb-3">
-                                    <div class="img-widget-wrap">
-                                    <a className="link-tag" href={`/newsdetails/${post.id}`}>
-                                            <img class="img-fluid" src={post.imgSource} alt="" />
-                                        </a>
-                                    </div>
+                                return <div class="panel post-list">
+                                    <div class="panel-body p-t-10">
+                                        <div class="media-main">
+                                        <a class="pull-left" href={`/newsdetails/${post.id}`}>
+                            <img class="thumb-lg  bx-s" src={post.imgSource} alt=""/> </a>
+                            <div class="info">
+                            <p class="widget-category mb-1">ಇತಿಹಾಸ</p>
+                            <h6 href={`/newsdetails/${post.id}`}>{post.title}</h6>
+                            <p class="text-muted"><i class="fa fa-clock-o mr-2"></i>{post.date}</p>
+                        </div>
+                                        </div>
 
-                                    <div class="widget-info-wrap">
-                                        <p class="widget-category mb-1">ಇತಿಹಾಸ</p>
-                                        <h3 class="widget-head">
-                                        <a className="link-tag" href={`/newsdetails/${post.id}`}>{post.title}</a>
-                                        </h3>
-                                        <p class="date mt-3 mb-1"><i class="fa fa-clock-o mr-2"></i>{post.date}</p>
                                     </div>
-                                </li>
+                                </div>
+                                // <li class="clearfix mb-3">
+                                //     <div class="img-widget-wrap">
+                                //     <a className="link-tag" href={`/newsdetails/${post.id}`}>
+                                //             <img class="img-fluid" src={post.imgSource} alt="" />
+                                //         </a>
+                                //     </div>
+
+                                //     <div class="widget-info-wrap">
+                                //         <p class="widget-category mb-1">ಇತಿಹಾಸ</p>
+                                //         <h6 class="widget-head">
+                                //         <a className="link-tag" href={`/newsdetails/${post.id}`}>{post.title}</a>
+                                //         </h6>
+                                //         <p class="date mt-3 mb-1"><i class="fa fa-clock-o mr-2"></i>{post.date}</p>
+                                //     </div>
+                                // </li>
                                  })}
                             </ul>
                         </div>

@@ -4,6 +4,7 @@ import { logIn } from "../../actions/index";
 
 const YoutubeVideo = (props) => {
   return (
+    <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12">
           <div class="head-wrap">
@@ -27,6 +28,7 @@ const YoutubeVideo = (props) => {
             <img class="img-fluid w-100" src="image/KarnatakaWild.jpg" />
           </div>
         </div>
+      </div>
       </div>
   );
 };

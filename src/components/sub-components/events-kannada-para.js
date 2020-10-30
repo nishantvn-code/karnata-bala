@@ -21,6 +21,7 @@ class EventsKannadaPara extends React.Component {
           let homePagePosts = this.props.homePagePosts;
         //   const newsPosts = posts.splice(0, 4);
   return (
+    <div class="container-fluid">
     <div class="row">
     <div class="col-sm-12">
         <div class="head-wrap mt-4">
@@ -74,6 +75,7 @@ class EventsKannadaPara extends React.Component {
     {/* <div class="col-sm-12">
         <button type="button" class="btn btn-md btn-other mx-auto d-block mt-4">Load more</button>
     </div> */}
+</div>
 </div>
    );
   }

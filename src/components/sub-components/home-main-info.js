@@ -4,6 +4,7 @@ import {logIn} from '../../actions/index';
 
 const HomeMainInfo  = props => {
   return (
+    <div class="container-fluid">
     <div class="jumbotron k-jumbotron">            
     <div class="row justify-content-end">
         <div class="col-sm-7">
@@ -14,6 +15,7 @@ const HomeMainInfo  = props => {
     </div>
     
     <img src="image/Utsava_background.png" class="img-fluid rajyostava d-none d-md-block" />
+</div>
 </div>
   );
   }
