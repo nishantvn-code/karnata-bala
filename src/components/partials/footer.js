@@ -10,7 +10,7 @@ class Footer extends React.Component {
                 <div class="row">
                     <div class="col-md-6 mt-md-0 my-3">
                         <div class="foot-kb-logo">
-                            <img src="/image/KB-Logo.png" /> <span class="ml-2 karnata">Karnata</span><span class="bala">Bala</span>
+                            <img class="logo" src="/image/KB-Logo.png" /> <span class="ml-2 karnata">Karnata</span><span class="bala">Bala</span>
                         </div>
                     </div>
                     <div class="col-md-3 mb-md-0 mb-3"> </div>                    

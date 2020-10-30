@@ -1,3 +1,7 @@
+body{
+    font-family: 'Baloo Tamma 2', cursive !important;
+  }
+
 /*******************   BOOTSTRAP CSS OVERRIDE   *****************/
 .btn.btn-ok{ background-color: #880404; color: #fff; border-radius: 0; padding: 1px 8px; }
 .btn.btn-other{ background-color: #fff; border-radius: 0; border: 2px solid #ef5b7e; }
@@ -67,7 +71,7 @@ span.bala{ color: #880404; }
 
 #topperCarousel{  }
 #topperCarousel .carousel-item{ height: auto; }
-#topperCarousel .carousel-item img{ width: 100%;height:25vh }
+#topperCarousel .carousel-item img{ width: 100%;height:55vh }
 
 .k-jumbotron{ position: relative; overflow: hidden; padding: 20px; }
 .rajyostava{ position: absolute; width: 40%; top: -56px; left: 0; }
@@ -145,7 +149,7 @@ span.bala{ color: #880404; }
 .widget-head > a:hover{ color: #4d4d4d; }
 .widget-info-wrap .date{ font-size: 12px; }
 
-.jumbotron-blog-img{ width: 100%; height: 300px; overflow: hidden; }
+.jumbotron-blog-img{ width: 100%; height: auto; overflow: hidden; }
 .jumbotron-blog-img img{ width: 100%; }
 .story-img-library{ margin-bottom: 20px; }
 
@@ -174,7 +178,7 @@ blockquote p:after { content: "\f10e"; margin-left: 5px; color: #999; font-famil
 .pager-nav > li > a > .fa-long-arrow-left { margin-right: 8px; }
 .pager-nav > li > a > .fa-long-arrow-right { margin-left: 8px; }
 
-.title-color {color: #e48f0a;}
+.title-color {color: #e48f0a; font-weight: 600;}
 .aboutus{margin: 3rem;}
 a{
     color: #4d4d4d;
@@ -183,8 +187,21 @@ a:hover{
     text-decoration: none;
     color:  #4d4d4d;
 }
+.margin-for-story{
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
+.logo{
+    border-radius: 50px;
+}
 
-
-
-
+.red-color{
+    color: red;
+}
+@media only screen and (max-width: 768px) {
+    #topperCarousel .carousel-item img {
+        width: 100%;
+        height: 30vh;
+    }
+}

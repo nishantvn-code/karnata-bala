@@ -62,7 +62,7 @@ class News extends React.Component {
                             <img class="thumb-lg  bx-s" src={post.imgSource} alt=""/> </a>
                             <div class="info">
                             <p class="widget-category mb-1">ಇತಿಹಾಸ</p>
-                            <h6 href={`/newsdetails/${post.id}`}>{post.title}</h6>
+                            <a href={`/newsdetails/${post.id}`}> <h6>{post.title}</h6></a>
                             <p class="text-muted"><i class="fa fa-clock-o mr-2"></i>{post.date}</p>
                         </div>
                                         </div>

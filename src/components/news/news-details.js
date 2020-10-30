@@ -29,7 +29,7 @@ import {getNewsPosts, getNewsPostsById} from '../../actions/index';
     <div class="container-fluid">
          <div class="row">
         {this.props.selectedPost && this.props.selectedPost.length ? this.props.selectedPost.map(post => { 
-        return (<div>
+        return (<div class="margin-for-story">
             <div class="row justify-content-center">
                 <div class="col-11">
                 <div class="jumbotron-blog-img mb-4">
@@ -94,7 +94,7 @@ import {getNewsPosts, getNewsPostsById} from '../../actions/index';
                         <img class="thumb-lg  bx-s"src={`/${post.imgSource}`}  alt=""/> </a>
                         <div class="info">
                         <p class="widget-category mb-1">ಇತಿಹಾಸ</p>
-                        <h6 href={`/newsdetails/${post.id}`}>{post.title}</h6>
+                        <a href={`/newsdetails/${post.id}`}> <h6>{post.title}</h6></a>
                         <p class="text-muted"><i class="fa fa-clock-o mr-2"></i>{post.date}</p>
                     </div>
                                     </div>

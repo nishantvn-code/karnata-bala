@@ -7,6 +7,9 @@ class Header extends React.Component {
 
  getActiveNav(path){
     let currentPath = window.location.pathname;
+    if(path === '/news' && currentPath.includes('/newsdetails')){
+        return 'active';
+    }
     return currentPath === path ? 'active' : '';
  }
 
@@ -17,7 +20,7 @@ class Header extends React.Component {
             <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand py-0" href="/">
-                <img src="/image/KB-Logo.png" width="66" height="66" alt="" /> 
+                <img class="logo" src="/image/KB-Logo.png" width="66" height="66" alt="" /> 
                 <span class="karnata">ಕರ್ಣಾಟ</span><span class="bala">ಬಲ</span>
             </a>
             <div class="collapse navbar-collapse" id="navbarTogglerTop1">
@@ -27,17 +30,17 @@ class Header extends React.Component {
                         <a class="nav-link" href="/">ಮುಖಪುಟ <span class="sr-only">(current)</span></a>
                     </li>
 
-                    <li className={`nav-item ${this.getActiveNav('/news')}`}>
+                    <li className={`nav-item ${this.getActiveNav('/news') || this.getActiveNav('/newsdetails')}`}>
                         <a class="nav-link" href="/news">ಸುದ್ದಿ</a>
                     </li>
 
-                    <li className={`nav-item ${this.getActiveNav('/gallery')}`}>
+                    {/* <li className={`nav-item ${this.getActiveNav('/gallery')}`}>
                         <a class="nav-link" href="/gallery">ಗ್ಯಾಲರಿ</a>
                     </li>
 
                     <li className={`nav-item ${this.getActiveNav('/blog')}`}>
                         <a class="nav-link" href="/blog">ಬ್ಲಾಗ್</a>
-                    </li>
+                    </li> */}
 
                     <li className={`nav-item ${this.getActiveNav('/aboutus')}`}>
                         <a class="nav-link" href="/aboutus">ಕರ್ಣಾಟಬಲ</a>

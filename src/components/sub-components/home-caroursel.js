@@ -21,7 +21,7 @@ const HomeCarousel  = props => {
                             <div class="carousel-item active">
                                 <img src="image/carousel-hampe-01.jpg" alt="Hampe" class="img-fluid" />
                                 <div class="carousel-caption">
-                                    <h3>ಹOಪೆ</h3>
+                                    <h3>ಹಂಪೆ</h3>
                                     <p>ವಿಶ್ವದ ಅತಿದೊಡ್ಡ ತೆರೆದ ಗಾಳಿ ವಸ್ತುಸಂಗ್ರಹಾಲಯ</p>
                                 </div>
                             </div>

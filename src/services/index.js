@@ -22,7 +22,6 @@ const post_service_call = async (url, data) => {
 //     return axios.get('/user/12345');
 //   }
 export const saveUserDetail = async (data) => {
-    debugger
     const saveUserUrl = 'http://localhost:5000/saveUserDetails';
     if(data) {
         const response = await post_service_call(saveUserUrl, data);

@@ -35,7 +35,7 @@ class EventsKannadaPara extends React.Component {
   {homePagePosts && homePagePosts.map((post, index) => {
        if(index % 2 === 0 ){
         return <div class="col-sm-3 pr-sm-0">
-      <a className="link-tag" onClick={() => this.rediectWithParams(post.id)}>
+      <a className="link-tag" href={`/newsdetails/${post.id}`}>
           <div class="activist-box-wrap mt-3">
             <div class="img-wrap">
                 <img class="img-fluid" src={post.imgSource} alt="" />
@@ -54,7 +54,7 @@ class EventsKannadaPara extends React.Component {
        
        } else { 
        return  <div class="col-sm-3 px-sm-0">
-           <a  className="link-tag" onClick={() => this.rediectWithParams(post.id)}>
+           <a  className="link-tag" href={`/newsdetails/${post.id}`}>
        <div class="activist-box-wrap mt-3">
         <div class="box-info px-4">
                 <h3 class="small-sub-head-01 mt-1">{post.place}</h3>
