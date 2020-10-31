@@ -34,11 +34,11 @@ class Header extends React.Component {
                         <a class="nav-link" href="/news">ಸುದ್ದಿ</a>
                     </li>
 
-                    {/* <li className={`nav-item ${this.getActiveNav('/gallery')}`}>
+                    <li className={`nav-item ${this.getActiveNav('/gallery')}`}>
                         <a class="nav-link" href="/gallery">ಗ್ಯಾಲರಿ</a>
                     </li>
 
-                    <li className={`nav-item ${this.getActiveNav('/blog')}`}>
+                    {/* <li className={`nav-item ${this.getActiveNav('/blog')}`}>
                         <a class="nav-link" href="/blog">ಬ್ಲಾಗ್</a>
                     </li> */}
 

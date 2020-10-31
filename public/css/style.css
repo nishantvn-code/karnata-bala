@@ -116,7 +116,7 @@ span.bala{ color: #880404; }
 
 .footer{  }
 .foot-kb-logo span{ font-size: 23px; color: #fff; text-shadow: 1px 1px #444; }
-.page-footer{ background-color: #e48f0a; }
+.page-footer{ background-color: #e48f0a; bottom: 0;}
 .footer-copyright{ background-color: #880404; }
 .footer-copyright{ color: #fff; }
 .footer-copyright a{ color: #fff; }
@@ -198,6 +198,13 @@ a:hover{
 
 .red-color{
     color: red;
+}
+.gallery-height{
+    display: block;
+    min-height: 1px;
+    width: 100%;
+    border: 1px solid rgb(221, 221, 221);
+    overflow: auto;
 }
 @media only screen and (max-width: 768px) {
     #topperCarousel .carousel-item img {

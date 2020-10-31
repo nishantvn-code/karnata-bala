@@ -17,16 +17,16 @@ class Footer extends React.Component {
                     <div class="col-md-3 mb-md-0 mt-2">                     
                         <ul class="social-media-icons">
                             <li>
-                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="https://m.facebook.com/Karnatabala" class="fa fa-facebook" target="_blank"></a>
                             </li>
                             <li>
-                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="https://mobile.twitter.com/karnatabala?lang=en" class="fa fa-twitter" target="_blank"></a>
                             </li>
                             <li>
-                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="https://www.instagram.com/karnatabala/?hl=en" class="fa fa-instagram" target="_blank"></a>
                             </li>
                             <li>
-                                <a href="#" class="fa fa-youtube"></a>
+                                <a href="https://www.youtube.com/channel/UCWMEyhtdzjcB7ZWpx7Mar8Q" target="_blank" class="fa fa-youtube"></a>
                             </li>
                         </ul>
                     </div>

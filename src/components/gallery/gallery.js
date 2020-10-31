@@ -1,23 +1,16 @@
 import React from 'react';
-import {connect} from 'react-redux';
-import {logIn} from '../../actions/index';
-class Blog extends React.Component {
+import Gallery from 'react-grid-gallery';
+import images from '../../json/images';
 
+
+ class PhotoGallery extends React.Component{
   render() {
-  return (
-    <div className="App">
-     <h1>Gallery - Karnata Bala</h1>
+    return (
+      <div className="container-fluid gallery-height">
+    <Gallery images={images}/>
     </div>
-  );
-  }
+);
+ }
 }
 
-const mapDispatchToProps = {
-  logIn
-};
-const mapStateToProps = state => ({
-
-});
-
-
-export default connect(mapStateToProps, mapDispatchToProps) (Blog);
+export default PhotoGallery;
